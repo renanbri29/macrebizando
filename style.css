@@ -41,6 +41,16 @@ header{
     background-position: center;
     
 }
+@media (max-width: 768px){
+
+    header{
+        height: 45vh;
+    }
+
+    .titulo{
+        font-size: clamp(2rem, 8vw, 3rem);
+    }
+}
 
 .titulo{
     color: darkgray;
