@@ -1,0 +1,153 @@
+@font-face {
+    font-family: "mine";
+    src: url(minecrafter/MinecrafterAlt.ttf);
+
+}
+
+@font-face {
+    font-family: "pixel";
+    src: url(Pixelify_Sans/PixelifySans-VariableFont_wght.ttf);
+}
+
+:root{
+    --bg: #0F1115;
+    --card: #1B1F24;
+    --green: #0D7A3C;
+    --green-light: #53FA96;
+    --blue: #22DAE0;
+    --gold: #D4B46A;
+    --text: #F5F5F5;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    height: 100vh; /* ocupa a tela inteira */
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-image: url("macrebizando-bg.png");
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.titulo{
+    color: darkgray;
+    font-family: "mine";
+    font-size: clamp(2rem, 8vw, 7rem);
+
+    text-align: center;
+
+    text-shadow: -5px 5px 10px black;
+}
+
+main{
+    padding-top: 30px;
+    background-color: var(--bg);
+    min-height: 100vh;
+    text-align: center;
+    box-shadow: inset 0px 0px 10px black;
+}
+
+a{
+    font-family: "pixel", sans-serif;
+    
+    text-decoration: none;
+    color: white;
+    margin: 30px;
+    padding: 10px 30px;
+    
+}
+
+.btn-redes{
+    width: 200px;
+    height: 70px;
+
+    border: none;
+    border-radius: 20px;
+
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    
+
+    cursor: pointer;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-decoration: none;
+    font-size: 1.5em;
+    text-shadow: -1px 1px 3px rgba(0, 0, 0, 0.467);
+
+    transition: 0.25s;
+
+    box-shadow: -10px 1px 10px rgba(0, 0, 0, 0.245);
+}
+
+.btn-redes:hover{
+    transform: translateY(-8px) scale(1.05);
+    
+
+    box-shadow:
+        0 15px 30px rgba(0,0,0,.4);
+}
+
+#youtube{
+    background-color: #FF0000;
+    
+}
+
+#twitch{
+    background-color: #9146FF;
+}
+
+#kick{
+    background-color: #53FC18;
+}
+
+#youtube:hover{
+   box-shadow:
+        -5px 15px 0px rgba(255,0,0,.4);
+}
+
+#twitch:hover{
+    box-shadow:
+        -5px 15px 0px rgba(145,70,255,.5);
+}
+
+#kick:hover{
+    box-shadow:
+        -5px 15px 0px rgba(83,252,24,.4);
+}
+
+.redes{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+
+footer{
+    padding: 10px;
+
+    background-color: var(--green);
+    color: var(--gold);
+
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+}
