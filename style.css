@@ -30,7 +30,7 @@
 }
 
 header{
-    height: 100vh; /* ocupa a tela inteira */
+    height: 70vh; /* ocupa a tela inteira */
     
     display: flex;
     justify-content: center;
@@ -44,7 +44,7 @@ header{
 @media (max-width: 768px){
 
     header{
-        height: 45vh;
+        height: 30vh;
     }
 
     .titulo{
