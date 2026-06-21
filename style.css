@@ -114,17 +114,19 @@ a{
     font-size: 1.5em;
     text-shadow: -1px 1px 3px rgba(0, 0, 0, 0.467);
 
-    transition: 0.25s;
+    transition: 0.2s;
 
-    box-shadow: -10px 1px 10px rgba(0, 0, 0, 0.245);
+   
 }
 
 .btn-redes:hover{
-    transform: translateY(-8px) scale(1.05);
-    
+    transform: translate(12px, -10px);
+    transform: translateY(-5px);
+    box-shadow: 12px -12px 0 rgba(145,70,255,.5);
+}
 
-    box-shadow:
-        0 15px 30px rgba(0,0,0,.4);
+.btn-redes:active{
+    transform: translateY(5px) scale(0.97);
 }
 
 #youtube{
@@ -142,17 +144,17 @@ a{
 
 #youtube:hover{
    box-shadow:
-        -5px 15px 0px rgba(255,0,0,.4);
+        -5px 15px 0px rgba(255, 0, 0, 0.2);
 }
 
 #twitch:hover{
     box-shadow:
-        -5px 15px 0px rgba(145,70,255,.5);
+        -5px 15px 0px rgba(145,70,255,.2);
 }
 
 #kick:hover{
     box-shadow:
-        -5px 15px 0px rgba(83,252,24,.4);
+        -5px 15px 0px rgba(83,252,24,.2);
 }
 
 .redes{
