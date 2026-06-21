@@ -152,12 +152,12 @@ a{
 
 
 footer{
-    padding: 10px;
+    padding: 10px 67px;
 
     background-color: var(--green);
     color: var(--gold);
 
-    text-align: center;
+    text-align: left;
     font-family: sans-serif;
     font-weight: bold;
 }
