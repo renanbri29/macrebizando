@@ -30,7 +30,7 @@
 }
 
 header{
-    height: 70vh; /* ocupa a tela inteira */
+    height: 70vh;
     
     display: flex;
     justify-content: center;
