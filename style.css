@@ -73,6 +73,7 @@ main{
     background-color: var(--bg);
     min-height: 100vh;
     text-align: center;
+    box-shadow: inset 0px 0px 10px rgb(0, 0, 0);
     
 }
 #VASCO{
