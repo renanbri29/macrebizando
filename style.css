@@ -62,12 +62,23 @@ header{
     text-shadow: -5px 5px 10px black;
 }
 
+header p{
+    text-align: center;
+    color: var(--gold);
+    font-family: "pixel";
+}
+
 main{
     padding-top: 30px;
     background-color: var(--bg);
     min-height: 100vh;
     text-align: center;
-    box-shadow: inset 0px 0px 10px black;
+    
+}
+#VASCO{
+    color: var(--bg);
+    text-align: right;
+    margin-bottom: 0%;
 }
 
 a{
